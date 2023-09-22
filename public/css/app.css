@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Sora';
+    src: url('public/fonts/Sora.ttf') format('ttf');
+}
+
+:root{
+    /* Colors */
+    --pink: #EB6676;
+    --pinklight: #eb667666;
+    --wheat: #f3f3f3;
+    --grey: #b8b8b8;
+    --greylight: #d8d8d8;
+    --dark: #000000;
+    --yellowlight: #fed792;
+    --yellowdark: #fec55d;
+    --purple: #6F46A1;
+
+    /* Fonts */
+    --font-primary: 'Dela Gothic One', sans-serif;
+    --font-secondary: 'Sora', sans-serif;
+}
+
+html, body, #app, .main{ 
+    height: 100%;
+    overflow: hidden;
+}
+#app{
+    max-width: 450px;
+    background-color: var(--wheat);
+    margin: auto;
+    display: block;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.return{
+    position: fixed;
+    text-align: center;
+    display: contents;
+}
+.return > p{
+    font-size: 24px;
+    margin: auto;
+}

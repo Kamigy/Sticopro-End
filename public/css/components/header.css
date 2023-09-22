@@ -1,0 +1,27 @@
+.header {
+    background-color: var(--pink);
+    min-height: 215px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: var(--wheat);
+    font-size: 24px;
+    border-radius: 0px 0px 40px 40px;
+    display: flex;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+    width: 320px;
+    top: 5px;
+    left: calc(20% - 40px);
+    z-index: 1;
+    mix-blend-mode: saturation;
+}
+.title {
+    margin: auto;
+    width: 85%;
+    font-family: var(--font-primary);
+    text-align: center;
+    z-index: 2;
+}

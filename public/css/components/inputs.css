@@ -1,0 +1,16 @@
+.form-control:focus{
+  border-color: var(--pink);
+  box-shadow: none;
+}
+.form-control {
+  height: 47px;
+  border-radius: 8px;
+  border: 1px solid var(--wheat);
+  width: 300px;
+}
+.form-control::placeholder {
+  color: var(--grey); 
+  opacity: 0.7;
+  font-family: 'Sora', sans-serif;
+}
+  

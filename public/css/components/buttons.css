@@ -1,0 +1,28 @@
+.primaryButton {
+  background-color: var(--pink);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  width: 100%;
+  border-radius: 16px;
+  border: 0;
+  color: var(--wheat);
+  height: 55px;
+  transition: all 0.3s ease;
+}
+.primaryButton:hover {
+  transform: scale(0.97)
+}
+.secondaryButton {
+  background-color: var(--wheat);
+  font-family: var(--font-primary);
+  color: var(--pink);
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+  font-size: 16px;
+  height: 55px;
+  transition: all 0.3s ease;
+}
+.secondaryButton:hover {
+  transform: scale(0.97)
+}

@@ -1,0 +1,31 @@
+.header {
+    background-color: var(--pink);
+    height: 215px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: var(--wheat);
+    font-size: 24px;
+    border-radius: 0px 0px 40px 40px;
+    display: flex;
+}
+.img-taille {
+    max-width: 75%;
+    max-height: 150px;
+}
+.btnDeco {
+    font-family: var(--font-secondary);
+    border: 2px solid var(--wheat);
+    border-radius: 30px;
+    background-color: var(--wheat);
+    color: var(--pink);
+    font-size: 16px;
+    padding: 3px 15px;
+}
+.btnDeco:hover {
+    border: 2px solid var(--wheat);
+    background-color: var(--pink);
+    color: var(--wheat);
+    cursor: pointer;
+    transition: 0.25s;
+}

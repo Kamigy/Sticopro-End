@@ -1,0 +1,32 @@
+.bold {
+    font-weight: bold;
+}
+.stats-description {
+    font-family: var(--font-secondary);
+}
+.statsCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.statsCard {
+    background-color: var(--pink);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    width: calc(50% - 8px);
+}
+.statsCard-special {
+    background-color: var(--yellowdark);
+}
+.statsCard-title {
+    margin: 0;
+    font-size: 12px;
+    font-family: var(--font-secondary);
+}
+.statsCard-number {
+    font-family: var(--font-primary);
+    font-size: 26px;
+    color: white;
+    margin: 0;
+}

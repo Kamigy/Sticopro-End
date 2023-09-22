@@ -1,0 +1,7 @@
+#app{
+    display: flex;
+}
+span{
+    margin: auto;
+    color: var(--dark);
+}

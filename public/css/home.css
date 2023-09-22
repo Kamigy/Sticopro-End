@@ -1,0 +1,135 @@
+.carte{
+    height: 100%;
+}
+.filterOptions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0; 
+    margin-bottom: 20px; 
+    padding: 0px 5px 5px 5px;
+    color: var(--dark);
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.filterOption.active {
+    border-bottom: 3px solid var(--pink); 
+} 
+.filterOption {
+    cursor: pointer;
+    padding: 0px 5px 5px 5px;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid var(--greylight);
+}
+.select-container {
+    background-color: var(--pink);
+    position: relative;
+    margin: 20px 0px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 130px;
+}
+.select-container select {
+    width: 100%;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    color: var(--wheat);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.select-container select:focus-visible{
+    outline: 0;
+}
+.select-container::after {
+    content: "▼";
+    font-size: 20px;
+    color: var(--wheat);
+    position: absolute;
+    right: 1rem;
+    top: 45%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+select option{
+    color: var(--dark);
+}
+.wineCard {
+    background-color: var(--some-color); /* Remplacez --some-color par la couleur de fond souhaitée */
+    color: var(--dark); /* Changez la couleur du texte à l'intérieur de wineCard */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /* Ajoute un bord arrondi à vos wineCards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajoute une ombre portée à vos wineCards */
+}
+
+.wineCard img {
+    max-width: 100%; /* Assure que l'image ne déborde pas de la carte */
+    border-radius: 5px; /* Bord arrondi pour les images */
+    height: 200px;
+}
+
+.wineCard > div {
+    margin-top: 10px; /* Espace au-dessus du texte */
+    font-size: 16px; /* Taille de la police du texte */
+}
+.select-container {
+    background-color: var(--pink);
+    position: relative;
+    margin: 20px 0px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 130px;
+}
+.select-container select {
+    width: 100%;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    color: var(--wheat);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.select-container select:focus-visible{
+    outline: 0;
+}
+.select-container::after {
+    content: "▼";
+    font-size: 20px;
+    color: var(--wheat);
+    position: absolute;
+    right: 1rem;
+    top: 45%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+select option{
+    color: var(--dark);
+}
+.wineCard {
+    background-color: var(--some-color); /* Remplacez --some-color par la couleur de fond souhaitée */
+    color: var(--dark); /* Changez la couleur du texte à l'intérieur de wineCard */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px; /* Ajoute un bord arrondi à vos wineCards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajoute une ombre portée à vos wineCards */
+}
+
+.wineCard img {
+    max-width: 100%; /* Assure que l'image ne déborde pas de la carte */
+    border-radius: 5px; /* Bord arrondi pour les images */
+}
+
+.wineCard > div {
+    margin-top: 10px; /* Espace au-dessus du texte */
+    font-size: 16px; /* Taille de la police du texte */
+}

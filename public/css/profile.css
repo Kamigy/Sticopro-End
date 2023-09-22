@@ -1,0 +1,45 @@
+.bordering{
+    border: 1px solid var(--pink);
+    border-radius: 15px;
+}
+.bordering>*{
+    border-color: var(--pink) !important;
+}
+.bordering > .col-6 > *{
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--dark);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.bordering > .col-6:hover{
+    cursor: pointer;
+    background-color: var(--pinklight);
+}
+.topLeft:hover {
+    border-top-left-radius: 15px;
+}
+.topRight:hover {
+    border-top-right-radius: 15px;
+}
+.bottomLeft:hover {
+    border-bottom-left-radius: 15px;
+}
+.bottomRight:hover {
+    border-bottom-right-radius: 15px;
+}
+h2{
+    font-family: var(--font-primary) !important;
+}
+

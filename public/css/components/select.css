@@ -1,0 +1,36 @@
+.select-container {
+    background-color: var(--pink);
+    position: relative;
+    margin: 20px 0px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 130px;
+}
+.select-container select {
+    width: 100%;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    color: var(--wheat);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.select-container select:focus-visible {
+    outline: 0;
+}
+.select-container::after {
+    content: "▼";
+    font-size: 20px;
+    color: var(--wheat);
+    position: absolute;
+    right: 1rem;
+    top: 45%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+select option {
+    color: var(--dark);
+}

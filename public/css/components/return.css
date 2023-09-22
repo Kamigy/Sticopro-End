@@ -1,0 +1,14 @@
+.top-left{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    font-size: 25px;
+    color: var(--wheat);
+}
+.top-left > i{
+    padding: 20px 25px;
+}
+.cursor{
+    cursor: pointer;
+    float: left;
+}

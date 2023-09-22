@@ -1,0 +1,138 @@
+.wine-name-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem; 
+    border-radius: 4px;
+}
+.message {
+    text-align:center;
+    margin-top: 20px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.add-wine-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--dark);
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.add-wine-image-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.addDescription {
+    border: 0;
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 12px;
+}
+.addDescription::placeholder {
+    color: var(--grey); 
+    opacity: 0.7;
+    font-family: 'Sora', sans-serif;
+}
+.addDescription:focus-visible {
+    border: 1px var(--pink) solid;
+    outline: 0;
+}
+.description-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 6px;
+}
+.validation-button {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: var(--pink);
+    border: none;
+    font-size: 16px;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+.validation-button:active {
+    transform: scale(0.95); 
+}
+.dropdowns {
+    display: flex;
+    width: 300px;
+    gap: 1vw;
+}
+.addImage-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.addImage-input {
+    font-family: 'Gilroy-Light', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    border-radius: 15px; 
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto; 
+    padding: 30px; 
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--pink);
+}
+.addImage-input-selector {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.addImage-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; 
+}
+.addImage-image img {
+    max-width: 100%;
+    border-radius: 15px; 
+}
+.add-symbol {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: var(--wheat);
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; 
+    color: var(--pink); 
+    margin-bottom: 10px; 
+}
+.div-selected{
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    margin: 10px 0;
+}
+.img-selected{
+    max-width: 300px; 
+    max-height: 300px; 
+    width: 'auto'; 
+    height: 'auto';
+}

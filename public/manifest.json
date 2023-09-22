@@ -1,0 +1,8 @@
+{
+  "short_name": "Sticopro",
+  "name": "Sticopro",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#EB6676",
+  "theme_color": "#f3f3f3"
+}
