@@ -89,15 +89,15 @@ Lien figma : [here](https://www.figma.com/file/2GPwlX79W32zIYoraxd3C4/Sticopro?t
 -	Connexion (Romain)
 -	Inscription (Gilian)
 -	Profil (Anthony)
--	Page d’accueil de création d’établissement
+-	Page d’accueil de création d’établissement (Younes)
 -	Page de création d’établissement (Thomas F)
 -	Page d’accueil de l’établissement coté client 
--	Page d’accueil de l’établissement coté pro
+-	Page d’accueil de l’établissement coté pro (Younes)
 -	Page de création de fiche vin (Thomas P)
 -	Page de fiche vin coté client
--	Page de fiche vin coté pro
+-	Page de fiche vin coté pro (Younes)
 -	Listing des vins (Younes)
--	Page des abonnements
+-	Page des abonnements 
 -	Mentions légales & Politique de confidentialités
 
 
