@@ -18,7 +18,6 @@ export default function Wrapper(props: any) {
 
         <div className="title">Mes recherches</div>
 
-        {isAuthenticated ? (
         <>
             <div className="carte">
 
@@ -26,13 +25,6 @@ export default function Wrapper(props: any) {
 
             </div>
         </>
-        ) : (
-            <div className="carte">
-                <p>Vous devez être connecté pour accéder à cette page, <a onClick={() => navigate('/login')}>veuillez vous connecter</a></p>
-            </div>
-            
-        )}
-
     </>
     );
 }

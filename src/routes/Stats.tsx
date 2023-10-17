@@ -17,7 +17,6 @@ export default function Wrapper(props: any) {
     <>
         <link rel="stylesheet" href={process.env.PUBLIC_URL + '/css/stats.css'} />  
 
-        {isAuthenticated ? (
         <>
             <div className="carte stats">
 
@@ -33,12 +32,6 @@ export default function Wrapper(props: any) {
             </div>   
             </div>
         </>
-        ) : (
-            <div className="carte stats">
-                <p>Vous devez être connecté pour accéder à cette page, <a onClick={() => navigate('/login')}>veuillez vous connecter</a></p>
-            </div>
-            
-        )}
   
     </>
     );

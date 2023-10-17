@@ -79,7 +79,6 @@ export default function Wrapper(props: any) {
     <>
         <link rel="stylesheet" href={process.env.PUBLIC_URL + '/css/addcard.css'} />
 
-        {isAuthenticated ? (
             <>
                 <Input type="text" value={nom} onChange={(e: any) => setNom(e.target.value)} placeholder="Nom du Vin" required/>
 
@@ -116,12 +115,7 @@ export default function Wrapper(props: any) {
 
                 </div>
             </>
-            ) : (
-                <div className="carte">
-                    <p>Vous devez être connecté pour accéder à cette page, <a onClick={() => navigate('/login')}>veuillez vous connecter</a></p>
-                </div>
-                
-            )}
+            
     </>
     );
 }

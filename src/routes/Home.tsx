@@ -38,7 +38,7 @@ export default function Wrapper(props: any) {
 
       <div className="title">Mes cartes vins</div>
 
-      {isAuthenticated ? (
+      
         <>
           <div>
 
@@ -86,12 +86,6 @@ export default function Wrapper(props: any) {
           <SecondaryButton title="Ajouter une carte vin" onClick={() => navigate('/addcard')}/>
           </div>
         </>
-      ) : (
-        <div className="carte">
-            <p>Vous devez être connecté pour accéder à cette page, <a onClick={() => navigate('/login')}>veuillez vous connecter</a></p>
-        </div>
-        
-      )}
     </>
   );
 }
