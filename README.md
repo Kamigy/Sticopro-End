@@ -75,7 +75,7 @@ $ npm start
 
 
 ## 🔑 Key Features
-You can find the specifications for this project [here](https://lesignobles.notion.site/Workshop-client-r-el-062978e2d91e48b79030e4418512cc5d).
+You can find the specifications for this project [here](https://lesignobles.notion.site/Workshop-client-r-el-062978e2d91e48b79030e4418512cc5d). Figma link : [here](https://www.figma.com/file/2GPwlX79W32zIYoraxd3C4/Sticopro?type=design&node-id=0%3A1&mode=design&t=HlYrbCtq4qtMpPIy-1)
 
 
 
